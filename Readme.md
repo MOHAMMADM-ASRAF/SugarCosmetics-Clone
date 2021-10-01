@@ -46,6 +46,9 @@ if user haven't login then user will redirect to signin page after signup. In si
 - `HTML`
 - `CSS`
 - `JavaScript`
+
+---
+### Tools Used 🔧
 - `Github`
 - `vsCode`
 
