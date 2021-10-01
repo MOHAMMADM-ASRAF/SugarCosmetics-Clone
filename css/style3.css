@@ -1,0 +1,188 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 120vh;
+    margin:20px auto;
+    /* background-color: lightblue; */
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.p{
+    display: flex;
+}
+ .p > p:nth-child(1) {
+    color:#fc2779;
+}
+
+.firstinformation {
+    grid-column: 1/span 1;
+    /* background-color:lightgray; */
+    padding: 20px;
+    border-right: 3.5px solid #f5f5f5; ;
+    
+}
+
+.contact{
+    width: 100%;
+    margin:10px auto;
+    padding:10px;
+    /* background-color:blue; */
+    font-family: "Quicksand", sans-serif;
+}
+
+.cinform{
+    display:flex;
+    margin:10px;
+}
+
+.cinform > p:nth-child(2){
+    margin-left: 200px;
+   
+}
+.cinform > p >a{
+    
+        margin-top:10px;
+        color:#fc2779;
+    
+}
+
+.cinform > p{
+    margin-top:10px
+}
+#inp{
+    width: 90%;
+    height: 45px;
+    padding:5px;
+    margin: 10px;
+    border-radius:5px;
+}
+
+.contact > p #checkbox{
+    margin:20px 10px
+}
+
+#form >#firstname,#form >#lastname{
+    width:43.5%;
+    height:45px;
+    border-radius: 5px;
+    padding:5px;
+    margin: 10px;
+}
+
+#form > .address > #address,#form > .city > #city,#form > .phone > #phone{
+width:90%;
+height:45px;
+    border-radius: 5px;
+    padding:5px;
+    margin: 10px;
+}
+
+#form > #country,#form > #state,#form > #pincod {
+width:28%;
+height:45px;
+border-radius: 5px;
+padding:5px;
+margin: 10px;
+
+}
+
+#form > p > #checkbox2 {
+    margin:20px 10px
+}
+
+.bottom{
+    display: flex;
+    justify-content:space-between;
+    text-align:center;
+    
+}
+
+.bottom > button {
+height:48px;
+width:40%;
+font-family: "Quicksand", sans-serif;
+font-size: 20px;
+background-color:#000000;
+color:#ffffff;
+border-radius:5px;
+
+}
+
+.bottom > p {
+    margin:15px 0;
+    font-family: "Quicksand", sans-serif;
+    color:#fc2779;
+}
+
+.shipping > h2 {
+    margin:20px 10px
+}
+
+/* second part */
+.line2{
+    height:2.5px;
+    background-color: #f5f5f5;
+    margin: 100px 0 10px 0;
+}
+
+.lin3{
+    height:2.5px;
+    background-color: #f5f5f5;
+    margin: 10px 0;
+}
+
+.secondinformation > .inpbtn > input {
+    width:60%;
+    margin:20px;
+    height:45px;
+    padding:5px;
+   border-radius: 5px;
+   font-family: "Quicksand", sans-serif;
+
+
+
+}
+
+.secondinformation > .inpbtn > button {
+    width:20%;
+    height:45px;
+    padding:5px;
+   background-color: rgb(176, 190, 197);
+   color:#FFFFFF;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   font-family: "Quicksand", sans-serif;
+
+
+
+}
+
+.subt,.ship{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 10px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.tot{
+    margin:10px 10px;
+    font-family: "Quicksand", sans-serif;
+
+}
+.inctot{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 10px;
+    font-family: "Quicksand", sans-serif;
+
+
+}
+
