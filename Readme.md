@@ -48,7 +48,13 @@ if user haven't login then user will redirect to signin page after signup. In si
 - `JavaScript`
 
 ---
+<<<<<<< HEAD
+
+### Tools Used :
+
+=======
 ### Tools Used 🔧
+>>>>>>> 58d244246232a61498f122f82cf4d01de5584077
 - `Github`
 - `vsCode`
 - `material ui colors`
